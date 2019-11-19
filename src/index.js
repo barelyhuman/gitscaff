@@ -13,7 +13,6 @@ const dir = argv._[1] ? path.resolve(argv._[1]) : null;
 function shortHandReposParser(repo) {
     const regex = /^((github|gitlab)(?:[:]))+(\w+[-]\w+\/|\w+\/)([^\s]+)$/i;
     const matchGroup = repo.match(regex);
-    console.log(matchGroup);
     return {
         url: "https://" + matchGroup[2] + '.com/' + matchGroup[3] + matchGroup[4],
         username: matchGroup[3],
