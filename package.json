@@ -1,0 +1,21 @@
+{
+  "name": "gitscaff",
+  "version": "1.0.0",
+  "bin": {
+    "gitscaff": "./index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run build -- --watch",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.2"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "mri": "^1.1.4",
+    "rimraf": "^3.0.0"
+  }
+}
