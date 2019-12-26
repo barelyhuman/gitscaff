@@ -32,7 +32,7 @@ gitscaff <github|gitlab>:username/repo <directory>
 ### Examples
 
 ```
-gitscaff github:reap-r/repo
-gitscaff gitlab:reap-r/Group1/Group2/repo
-gitscaff gitlab:reap-r/repo
+gitscaff github:reap-r/repo <folder-name>
+gitscaff gitlab:reap-r/Group1/Group2/repo <folder-name>
+gitscaff gitlab:reap-r/repo <folder-name>
 ```
