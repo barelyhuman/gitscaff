@@ -1,6 +1,6 @@
 # GITSCAFF
 
-Simple scaffolding using git repositories as templates. 
+Simple CLI tool to help create base templates using Git Repositories 
 
 ### Currently Supports 
 - Github
@@ -32,7 +32,7 @@ gitscaff <github|gitlab>:username/repo <directory>
 ### Examples
 
 ```
-gitscaff github:reap-r/repo <folder-name>
-gitscaff gitlab:reap-r/Group1/Group2/repo <folder-name>
-gitscaff gitlab:reap-r/repo <folder-name>
+gitscaff github:barelyhuman/repo <folder-name>
+gitscaff gitlab:barelyhuman/Group1/Group2/repo <folder-name>
+gitscaff gitlab:barelyhuman/repo <folder-name>
 ```
