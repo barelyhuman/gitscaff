@@ -1,5 +1,7 @@
 # GITSCAFF
 
+![Build](https://github.com/barelyhuman/gitscaff/workflows/Build/badge.svg)
+
 Simple CLI tool to help create base templates using Git Repositories 
 
 ### Currently Supports 
