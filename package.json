@@ -11,7 +11,7 @@
     "build": "rollup -c"
   },
   "devDependencies": {
-    "rollup": "^1.27.2"
+    "rollup": "^3.29.5"
   },
   "dependencies": {
     "chalk": "^3.0.0",
